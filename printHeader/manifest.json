@@ -2,7 +2,7 @@
 
     "description": "Altering HTTP responses",
     "manifest_version": 2,
-    "name": "http-response-filter",
+    "name": "print user agent",
     "version": "1.0",
     "homepage_url": "https://github.com/mdn/webextensions-examples/tree/master/http-response",
     "icons": {
@@ -16,12 +16,7 @@
   
     "background": {
       "scripts": ["script.js"]
-    },
-  
-    "browser_specific_settings": {
-      "gecko": {
-        "strict_min_version": "57.0a1"
-      }
     }
   
-  }
+  
+ }
