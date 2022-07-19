@@ -7,9 +7,11 @@
 - content scripts are the one's that actually interacts with the webpage (essentially DOM elements).
 
 ## Example navigating the documentation Inception level: 
+```url.searchParams.get("upload");```
 - url https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/webRequest/onBeforeRequest
   - https://developer.mozilla.org/en-US/docs/Web/API/URL/searchParams
      - https://developer.mozilla.org/en-US/docs/Web/API/URLSearchParams
+       - https://developer.mozilla.org/en-US/docs/Web/API/URLSearchParams/get
 
 # From Background Script to Content Script
 - https://stackoverflow.com/questions/41889189/what-exactly-are-content-script-and-background-script-in-the-chrome-extension
